@@ -45,7 +45,7 @@ if [[ $DOSETUP =~ "y" ]] ; then
   sudo free
   sudo echo "/var/swap.img none swap sw 0 0" >> /etc/fstab
   cd
-  wget https://github.com/SovranoCoin/mn-install/raw/master/SovranoCoin-qt-linux.zip
+  wget https://github.com/SovranoCoin/MNinstall/raw/master/SovranoCoin-qt-linux.zip
   unzip SovranoCoin-*.zip
   chmod 755 ./sovranocoin*
   mv sovranocoi* /usr/local/bin/
